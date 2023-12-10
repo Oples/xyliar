@@ -2,9 +2,11 @@
 export default {
     plugins: [],
     theme: {
-        extend: {},
+        extend: {
+            colors: {},
+        },
     },
-    purge: ["./index.html", "./src/**/*.{svelte,js,ts}"], //for unused css
+    content: ["./index.html", "./src/**/*.{svelte,js,ts}"], //for unused css
     variants: {
         extend: {},
     },
